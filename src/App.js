@@ -57,7 +57,7 @@ function App() {
       {data.map((card) => {
         //console.log("OK");
         return(
-        <div>
+        <div className="cards">
           <div><img src={card.img} alt="Images"/></div>
           <div>
           <h4> {card.title} </h4>
